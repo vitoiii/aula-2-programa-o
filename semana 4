@@ -1,0 +1,23 @@
+As linguasgens de porgramação escolhidas foram python,Javascript e Java:
+Python: É uma linguagem de alto nível, interpretada, conhecida pela sua sintaxe simples e legível. É amplamente utilizada em ciência de dados, desenvolvimento web, automação, e muito mais. Python é ótimo para prototipagem rápida e desenvolvimento de scripts
+JavaScript: Também é uma linguagem de alto nível e interpretada, mas é especificamente projetada para desenvolvimento web. JavaScript é executado no navegador do usuário, sendo fundamental para o desenvolvimento de aplicações web interativas. Com Node.js, também pode ser usado no backend.
+Java: É uma linguagem compilada, orientada a objetos, conhecida por ser robusta, segura e de desempenho relativamente alto. É amplamente utilizada para o desenvolvimento de aplicativos corporativos, aplicações Android e sistemas complexos.
+2. Tente fazer um código mínimo em cada uma delas:
+
+	•	Python:
+
+print("Hello, World!")
+
+
+	•	JavaScript:
+
+console.log("Hello, World!");
+
+
+	•	Java:
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
