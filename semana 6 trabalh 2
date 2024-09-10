@@ -1,0 +1,8 @@
+def imprime_vogais(texto):
+    vogais = "aeiouAEIOU"
+    resultado = [char for char in texto if char in vogais]
+    print("Vogais encontradas:", ''.join(resultado))
+
+# Exemplo de uso:
+frase = "Exemplo de frase com várias vogais"
+imprime_vogais(frase)
