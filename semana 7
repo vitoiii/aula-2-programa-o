@@ -1,0 +1,74 @@
+1) def imprimir_informacoes(nome, idade, cidade):
+    print("Nome:", nome, sep=" ", end=", ")
+    print("Idade:", idade, sep=" ", end=", ")
+    print("Cidade:", cidade, sep=" ")
+    
+# Exemplo de uso
+imprimir_informacoes("Jean", 25, "São Paulo")
+2) def calculadora():
+  """Realiza operações matemáticas básicas."""
+  num1 = float(input("Digite o primeiro número: "))
+  num2 = float(input("Digite o segundo número: "))
+  operacao = input("Digite a operação   
+ (+, -, *, /): ")
+
+  if operacao == '+':
+    resultado = num1 + num2
+  elif operacao == '-':
+    resultado = num1 - num2
+  elif operacao == '*':
+    resultado = num1 * num2
+  elif operacao == '/':
+    if num2 == 0:   
+
+      print("Divisão por zero não é permitida.")
+    else:
+      resultado = num1 / num2
+  else:
+    print("Operação inválida.")
+
+  if 'resultado' in locals():
+    print("Resultado:", resultado)
+    3) lista_compras(maçã, pão, leite, café
+    Digite os itens da lista de compras, separados por vírgula: maçã, pão, leite, café
+    
+maçã
+pão
+leite
+café
+4) def celsius_para_fahrenheit():
+    # Solicita ao usuário a temperatura em Celsius
+    celsius = float(input("25.0°C"))
+    
+    # Converte a temperatura para Fahrenheit
+    fahrenheit = (celsius * 9/5) + 32
+    
+    # Exibe o resultado
+    print(f"{celsius}°C equivalem a {fahrenheit}°F")
+
+# Chama a função
+celsius_para_fahrenheit()
+25.0°C equivalem a 77.0°F
+
+5) def coletar_nomes():
+    nomes = []  # Lista para armazenar os nomes
+
+    while True:
+        nome = input("Digite um nome (ou 'sair' para encerrar): ")
+        if nome.lower() == 'sair':  # Verifica se o usuário digitou 'sair'
+            break
+        nomes.append(nome)  # Adiciona o nome à lista
+
+    print("\nNomes digitados:")
+    for nome in nomes:
+        print(nome)
+
+# Chama a função
+coletar_nomes()
+igite um nome (ou 'sair' para encerrar): João
+Digite um nome (ou 'sair' para encerrar): Maria
+Digite um nome (ou 'sair' para encerrar): sair
+
+Nomes digitados:
+João
+Maria
